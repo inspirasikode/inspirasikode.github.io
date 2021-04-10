@@ -1,0 +1,204 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <!-- include font-awesome libs -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <!-- include style css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+
+    <!-- shortcut icon -->
+    <link rel="shortcut icon" href="assets/images/logo-1.png">
+
+    <!-- website title -->
+    <title>Inspirasikode</title>
+</head>
+<body>
+    <!-- header -->
+    <header>
+        <!-- sidenav menu hover -->
+        <div id="mySidenav" class="bg-3">
+            <a href="index.html" id="home"> Beranda <i class="fa fa-home"></i> </a>
+            <a id="service" onclick="openPage('Service', this, '#d3d3d3')"> Layanan <i class="fa fa-cogs"></i></a>
+            <a id="github" onclick="openPage('Repository', this, '#d3d3d3')"> Produk <i class="fa fa-github"></i></a>
+            <a id="contact" onclick="openPage('Contact', this, '#d3d3d3')"> Kontak <i class="fa fa-envelope"></i></a>
+            <a href="index.html" id="account"> Akses <i class="fa fa-user-circle"></i></a>
+        </div>
+
+        <!-- headernav -->
+        <div id="myHeadernav">
+            <h1 class="color-1">Inspirasi Kode</h1>
+            <span class="color-2"><i class="fa fa-instagram"> inspirasikode</i> (bug and error is my life)</span>
+        </div>
+    </header>
+
+    <!-- main -->
+    <main>
+        <div class="mainin">
+            <!-- card profile -->
+            <div class="mainin-profile text-center">
+                <div class="card-profile">
+                    <img src="assets/images/logo-1.png" alt="Avatar">
+                    <h1>Inspirasi Kode</h1>
+                    <p class="card-profile-title color-3">bug and error is my life</p>
+                    <p><button class="bg-2 color-4"> @inspirasikode </button></p>
+                    <p class="card-profile-descript text-left">Jasa pembuatan aplikasi berbasis mobile & website</p>
+                    <p class="text-left"><i class="fa fa-envelope"> inspirasikode@gmail.com </i></p>
+                    <p class="text-left"><i class="fa fa-street-view"> Malang East Java Indonesian </i></p>
+                    <p>
+                        <a href="https://api.whatsapp.com/send?phone=6281222317733" target="_blank"><i class="fa fa-whatsapp"></i></a>
+                        <a href="https://www.instagram.com/inspirasikode/" target="_blank"><i class="fa fa-instagram"></i></a>
+                        <a href="#" target="_blank"><i class="fa fa-facebook"></i></a>
+                        <a href="https://github.com/inspirasikode" target="_blank"><i class="fa fa-github"></i></a>
+                    </p>
+                    <p><button type="#" class="bg-1 color-4">Profil Kami</button></p>
+                </div>
+            </div>
+
+            <!-- tab -->
+            <div class="mainin-tab">
+                <button class="mainin-tab-link" onclick="openPage('Service', this, '#d3d3d3')" id="defaultOpen"><i class="fa fa-cogs"></i> Layanan </button>
+                <button class="mainin-tab-link" onclick="openPage('Repository', this, '#d3d3d3')"><i class="fa fa-github"></i> Repositori </button>
+                <button class="mainin-tab-link" onclick="openPage('Contact', this, '#d3d3d3')"><i class="fa fa-envelope"></i> Kontak </button>
+        
+                <!-- service -->
+                <div id="Service" class="tab-content">
+                    <h3>Layanan</h3>
+                    <p>Layanan kami...</p>
+                    <div class="ruller"></div>
+
+                    <!-- card -->
+                    <div class="card-grid">
+                        <div class="card">
+                            <img src="assets/images/logo-2.png" alt="Service" style="width:100%">
+                            <h1>Aplikasi Mobile</h1>
+                            <p class="card-price">mulai Rp. 1.000.000,00 an</p>
+                            <p>Aplikasi berbasis android</p>
+                            <p><button>Order & Request</button></p>
+                        </div>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card">
+                            <img src="assets/images/logo-2.png" alt="Service" style="width:100%">
+                            <h1>Aplikasi website</h1>
+                            <p class="card-price">mulai Rp. 1.000.000,00 an</p>
+                            <p>Aplikasi berbasis website</p>
+                            <p><button>Order & Request</button></p>
+                        </div>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card">
+                            <img src="assets/images/logo-2.png" alt="Service" style="width:100%">
+                            <h1>Virtual Tour 360</h1>
+                            <p class="card-price">mulai Rp. 1.000.000,00 an</p>
+                            <p>Foto kamera 360</p>
+                            <p><button>Order & Request</button></p>
+                        </div>
+                    </div>
+                    <div class="card-grid">
+                        <div class="card">
+                            <img src="assets/images/logo-2.png" alt="Service" style="width:100%">
+                            <h1>Website Blog</h1>
+                            <p class="card-price">mulai Rp. 1.000.000,00 an</p>
+                            <p>Company</p>
+                            <p><button>Order & Request</button></p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- repository -->
+                <div id="Repository" class="tab-content">
+                    <h3>Repositori</h3>
+                    <p>Pengalaman project kami</p>
+                    <div class="ruller"></div>
+
+                    <!-- flip card -->
+                    <div class="card-grid">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/images/logo-4.png" alt="Project">
+                                </div>
+                                <div class="flip-card-back text-left">
+                                    <h1>Office App</h1>
+                                    <p>Aplikasi untuk manajemen perkantoran</p>
+                                    <div class="ruller"></div>
+                                    <p><strong># Fitur</strong></p>
+                                    <p><i class="fa fa-check"> Administrasi </i></p>
+                                    <p><i class="fa fa-check"> Surat Menyurat </i></p>
+                                    <p><i class="fa fa-check"> Keuangan </i></p>
+                                    <a href="#" class="btn">Lihat Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-grid">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/images/logo-4.png" alt="Project">
+                                </div>
+                                <div class="flip-card-back text-left">
+                                    <h1>Office App</h1>
+                                    <p>Aplikasi untuk manajemen perkantoran</p>
+                                    <div class="ruller"></div>
+                                    <p><strong># Fitur</strong></p>
+                                    <p><i class="fa fa-check"> Administrasi </i></p>
+                                    <p><i class="fa fa-check"> Surat Menyurat </i></p>
+                                    <p><i class="fa fa-check"> Keuangan </i></p>
+                                    <a href="#" class="btn">Lihat Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="card-grid">
+                        <div class="flip-card">
+                            <div class="flip-card-inner">
+                                <div class="flip-card-front">
+                                    <img src="assets/images/logo-4.png" alt="Project">
+                                </div>
+                                <div class="flip-card-back text-left">
+                                    <h1>Office App</h1>
+                                    <p>Aplikasi untuk manajemen perkantoran</p>
+                                    <div class="ruller"></div>
+                                    <p><strong># Fitur</strong></p>
+                                    <p><i class="fa fa-check"> Administrasi </i></p>
+                                    <p><i class="fa fa-check"> Surat Menyurat </i></p>
+                                    <p><i class="fa fa-check"> Keuangan </i></p>
+                                    <a href="#" class="btn">Lihat Demo</a>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- contact -->
+                <div id="Contact" class="tab-content">
+                    <h3>Kontak</h3>
+                    <p>Hubungi kami jika anda butuh bantuan</p>
+                    <div class="ruller"></div>
+
+                    <!-- contact content -->
+                    <div class="contact-content">
+                        <p><a href="https://api.whatsapp.com/send?phone=6281222317733" target="_blank" class="color-1"><i class="fa fa-whatsapp"> +62 8100 0000 000 </i></a></p>
+                        <p><a href="https://api.whatsapp.com/send?phone=6281222317733" target="_blank" class="color-1"><i class="fa fa-whatsapp"> +62 8100 0000 000 </i></a></p>
+                        <p><i class="fa fa-envelope"> inspirasikode@gmail.com </i></p>
+                    </div>
+
+                    <!-- include map -->
+                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d63195.109256048076!2d112.54370734716962!3d-8.132569251260648!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x2e789e548f017007%3A0x4027a76e35316d0!2sKepanjen%2C%20Kec.%20Kepanjen%2C%20Malang%2C%20Jawa%20Timur!5e0!3m2!1sid!2sid!4v1618033687739!5m2!1sid!2sid" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <!-- footer -->
+    <footer></footer>
+
+    <!-- include script js -->
+    <script src="assets/js/script.js"></script>
+</body>
+</html>
