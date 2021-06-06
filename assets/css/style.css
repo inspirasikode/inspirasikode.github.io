@@ -5,6 +5,7 @@
 }
 
 .mpx-top-1 {margin-top: 10px;}
+.mpx-bottom-1 {margin-bottom: 10px;}
 
 /* coloring */
 .bg-1 {background-color: #525dcc;}
@@ -196,6 +197,11 @@ main {
     color: #ffffff;
     transform: rotateY(180deg);
     background-color: #525dcc;
+}
+.flip-card-btn {
+    padding: 7px 7px 5px 7px;
+    border-radius: 5px;
+    background-color: #ffffff;
 }
 
 /* card profile */
