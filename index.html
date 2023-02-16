@@ -21,13 +21,20 @@
     <script src="js/vendor/modernizr-2.8.3-respond-1.4.2.min.js"></script>
 
     <style>
-        .other-bg1 {
-            background-color:  rgba(12,12,12,0.9);;
+        .text-center {text-align: center}
+        .bg-white {background-color: #FFFFFF;}
+        .Modern-Slider .info1 {
+            position: absolute;
+            width: 93%;
+            top: 5%;
+            right: 60px;
+            display: inline-block;
+            background-color: #FFFFFF;
         }
     </style>
 </head>
 <body>
-    <div class="sidebar-navigation hidde-sm hidden-xs">
+    <!-- <div class="sidebar-navigation hidde-sm hidden-xs">
         <div class="logo">
             <a href="#">Hirfi<em> Group</em></a>
         </div>
@@ -83,7 +90,7 @@
             </audio>
             <li><a href="#"><small>Professional & Trusted</small></a></li>
         </ul>
-    </div>
+    </div> -->
 
     <div class="slider">
         <div class="Modern-Slider content-section" id="top">
@@ -94,31 +101,96 @@
                         <div>
                             <h1>Selamat Datang<br>di Kantor Utama Hirfi Engineering</h1>
                             <div>
-                                <video controls autoplay="true" loop="true" muted  width="100%" height="400px">
+                                <video controls autoplay="true" loop="true" muted  width="100%" height="520">
                                     <source src="welcomevideo.mp4" type="video/mp4">
                                 </video>
                             </div>
-                            <p class="other-bg1">Perum Puri Dewata Kav.13, Jl. Akordion Utara, Kel. Tunggulwulung, Kec. Lowokwaru, Kota Malang - Jawa Timur 65143<br>Telp. (0341) 4352757 | E-Mail: hirfi.studio@gmail.com</p>
+                            <p>Perum Puri Dewata Kav.13, Jl. Akordion Utara, Kel. Tunggulwulung, Kec. Lowokwaru, Kota Malang - Jawa Timur 65143<br>Telp. (0341) 4352757 | E-Mail: hirfi.studio@gmail.com</p>
                         </div>
                     </div>
                 </div>
             </div>
-            <!-- <div class="item item-2">
+            <div class="item item-2">
                 <div class="img-fill">
                     <div class="image"></div>
-                    <div class="info">
+                    <div class="info1">
                         <div>
-                            <h1>Please tell <br>your friends</h1>
-                            <p>Support templatemo by sharing a link to your friends.
-					    	    <br>Thank you for helping us.</p>
-                            <div class="white-button button">
-                                <a href="#featured">Share More</a>
-                            </div>
+                            <h1>Jadwal Lelang Aktif</h1>
+                            <table class="table table-striped">
+                                <thead>
+                                    <tr>
+                                        <th>No.</td>
+                                        <th>Nama Paket</th>
+                                        <th>HPS</th>
+                                        <th>Perusahaan</th>
+                                        <th>Tahapan</th>
+                                        <th>Keterangan</th>
+                                    </tr>
+                                </thead>
+                                <tbody>
+                                    <tr>
+                                        <td>1</td>
+                                        <td>Perencanaan Andalalin Cimedang Cs dan Cibareno Cs Di Balai Besar Pelaksanaan Jalan Nasional DKI Jakarta - Jawa Barat</td>
+                                        <td>Rp. 3.930.384.000</td>
+                                        <td>PT. Aria Jasa Reksatama KSO PT. Hirfi Studio</td>
+                                        <td>Pembukaan Admin Teknis</td>
+                                        <td>17 Februari Pengumuman Hasil Teknis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>2</td>
+                                        <td>Kajian Andalalin Simpang Pembangunan Jalan Baru Menuju Kawasan Mabes TNI Cilangkap</td>
+                                        <td>Rp. 1.402.554.000</td>
+                                        <td>PT. Hirfi Studio</td>
+                                        <td>Pembukaan Admin Teknis</td>
+                                        <td>17 Februari Pengumuman Hasil Teknis</td>
+                                    </tr>
+                                    <tr>
+                                        <td>3</td>
+                                        <td>Penyusunan Dokumen Laik Fungsi Jalan</td>
+                                        <td>Rp. 1.536.983.340</td>
+                                        <td>PT. Hirfi Studio</td>
+                                        <td>Upload Dokumen Penawaran</td>
+                                        <td>nihil</td>
+                                    </tr>
+                                    <tr>
+                                        <td>4</td>
+                                        <td>Penyusunan Analisis Dampak Lalulintas dan UKL-UPL Duplikasi Jembatan Air Baruga CS</td>
+                                        <td>Rp. 1.700.000.000</td>
+                                        <td>PT. Hirfi Studio</td>
+                                        <td>Upload Dokumen Penawaran</td>
+                                        <td>nihil</td>
+                                    </tr>
+                                    <tr>
+                                        <td>5</td>
+                                        <td>Belanja Jasa Konsultansi Beririentasi Layanan-Jasa Studi Penelitian dan Bantuan Teknik Kajian Inovasi Kebijakan Penyediaan Infrastruktur dalam Rangka Mendorong Perkembangan Kota Surakarta Bagian Utara</td>
+                                        <td>Rp. 249.233.850</td>
+                                        <td>CV. Lugadika Elka Sukma</td>
+                                        <td>Pembuktian Kualifikasi</td>
+                                        <td>17 Januari 2023 Jam: 08:30-09:30 Diundang Pembuktian Offline</td>
+                                    </tr>
+                                    <tr>
+                                        <td>6</td>
+                                        <td>Belanja Jasa Konsultansi Berorientasi Bidang-Transportasi</td>
+                                        <td>Rp. 349.999.650</td>
+                                        <td>CV. Lugadika Elka Sukma</td>
+                                        <td>Evaluasi Dokumen Kualifikasi</td>
+                                        <td>Jadwal Pembuktian Tanggal 21-22</td>
+                                    </tr>
+                                    <tr>
+                                        <td>7</td>
+                                        <td>Penyusunan Tata Batas Areal IPPKH Jalan Nasional di Provinsi Jawa Timur</td>
+                                        <td>Rp. 1.054.516.000</td>
+                                        <td>PT. Hirfi Studio</td>
+                                        <td>Kirim Persyaratan Kualifikasi</td>
+                                        <td>Tanggal 16-23 Februari 2023 Jam: 13:00 Kirim Kualifikasi</td>
+                                    </tr>
+                                </tbody>
+                            </table>
                         </div>
                     </div>
                 </div>
             </div>
-            <div class="item item-3">
+            <!-- <div class="item item-3">
                 <div class="img-fill">
                     <div class="image"></div>
                     <div class="info">
